@@ -1,0 +1,27 @@
+<img src="assets/images/login.jpg" class="header-img" />
+<div class="flex center margin-top">
+  <img class="logo" src="assets/images/logo.png" />
+</div>
+<div class="flex center">
+  <form class="flex column" [formGroup]="loginForm" (ngSubmit)="submit()">
+    <input id="email" type="text" formControlName="email" placeholder="Email" />
+    <input
+      id="password"
+      type="password"
+      formControlName="password"
+      placeholder="Password" />
+    <div class="flex center text-color">Forgot your password?</div>
+    <div class="flex center">
+      <button type="submit" [disabled]="!loginForm.valid" class="btn">
+        LOGIN
+      </button>
+    </div>
+  </form>
+</div>
+
+<div class="flex center row lang">
+  <a class="selected" href="#">EN</a>
+  <a href="#">FR</a>
+  <a href="#">IT</a>
+  <a href="#">ES</a>
+</div>

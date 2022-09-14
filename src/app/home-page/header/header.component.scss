@@ -1,0 +1,53 @@
+.header {
+  font-size: 1.4rem;
+  height: 6rem;
+  padding: 4rem 2rem 4rem 2rem;
+
+  &-entries {
+    gap: 2rem;
+
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: var(--color-dark-grey);
+
+      &::after {
+        content: '';
+        display: flex;
+        width: 2em;
+        margin: 0 auto 0;
+        border-bottom: 2px solid var(--color-primary);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        opacity: 0;
+        z-index: -1;
+      }
+
+      &:hover,
+      &:focus {
+        transform: scale3d(1.006, 1.006, 1);
+        &::after {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  nav {
+    align-self: stretch;
+
+    i {
+      padding: 0 1rem;
+      cursor: pointer;
+      height: 100%;
+      color: var(--color-primary);
+
+      &:hover {
+        color: var(--color-dark-grey);
+      }
+    }
+  }
+}

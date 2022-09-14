@@ -18,10 +18,12 @@
     "importHelpers": true,
     "target": "es2020",
     "module": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ]
+    "lib": ["es2020", "dom"],
+    "paths": {
+      "@shared/models": ["src/app/shared/models"],
+      "@shared/pipes": ["src/app/shared/pipes"],
+      "@shared/services": ["src/app/shared/services"]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

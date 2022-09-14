@@ -1,0 +1,61 @@
+.background-img {
+  height: 50rem;
+  background-image: url(/assets/images/home.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card {
+  padding: 2.4rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  margin: 4rem;
+  width: 40rem;
+  font-size: 2rem;
+
+  &-title {
+    font-size: 1.5rem;
+    font-weight: 350;
+  }
+
+  &-text {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+  &-date {
+    font-size: 1.3rem;
+    color: var(--color-light-grey-2);
+  }
+}
+
+.button {
+  width: 29%;
+  margin: 0 0 0 -0.3rem;
+}
+
+button {
+  padding: 4px 10px 4px 10px;
+}
+
+.arrow {
+  column-gap: 1em;
+  margin-top: 1em;
+}
+
+.font-color {
+  color: var(--color-dark-blue);
+  font-weight: 500;
+}
+
+.margin-right {
+  margin-right: 0.7rem;
+}
+
+.arrow-left-color {
+  color: var(--color-light-grey-3);
+}
+
+.text-size {
+  font-size: 1.3rem;
+}

@@ -1,0 +1,25 @@
+.btn {
+  width: 10rem;
+  height: 4rem;
+  border-radius: 5rem;
+  border: 2px solid var(--color-dark-blue);
+  color: var(--color-dark-blue);
+  background-color: var(--color-white);
+  margin-top: 3rem;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &:hover {
+    color: var(--color-white);
+    background-color: var(--color-dark-blue);
+  }
+}
+
+.btn-lg {
+  width: 18rem;
+  border-radius: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}

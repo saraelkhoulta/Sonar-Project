@@ -1,0 +1,11 @@
+<app-header></app-header>
+<app-flash-news></app-flash-news>
+<div class="title-cards text-center x-large">Customer machines</div>
+<div class="cards grid center">
+  <app-card-machine *ngFor="let machine of machines" [machine]="machine">
+  </app-card-machine>
+</div>
+
+<div class="flex center">
+  <button type="submit" class="btn btn-lg uppercase">More machines</button>
+</div>

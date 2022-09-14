@@ -1,0 +1,62 @@
+// FLEX
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+// TEXT
+.uppercase {
+  text-transform: uppercase;
+}
+
+.logo {
+  width: var(--width-logo);
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.x-large {
+  font-size: x-large;
+}
+
+.large {
+  font-size: large;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid var(--color-light-grey-1);
+}
+
+.icon-color {
+  color: var(--color-primary);
+}
